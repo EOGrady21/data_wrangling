@@ -1,0 +1,48 @@
+---
+title: "Environmental drivers of pelagic fish stocks in the NW Atlantic Ocean"
+author: "Dan Reed"
+date: ""
+header-includes:
+  - \usepackage[default]{lato}
+  - \usepackage{titling}
+  - \pretitle{\begin{flushleft}\huge\bf}
+  - \posttitle{\end{flushleft}}
+  - \predate{\begin{flushleft}\vspace{-0.5cm}\it}
+  - \postdate{\end{flushleft}}
+  - \preauthor{\begin{flushleft}\large\vspace{-0.5cm}}
+  - \postauthor{\end{flushleft}}
+output: pdf_document
+---
+
+Scripts in `/R/` should be run with `/R/` as the working directory. These scripts will look for data in the `../data/` directory and output files to the `../output/` directory. Most packages used by these scripts are available from CRAN, but `ACCASPR` can be downloaded using the following command: `devtools::install_github("DanielReedOcean/ACCASPR")`. Directories are described below.
+
+# data
+Contains files that are used by the scripts in the `R` directory.
+
+# figs
+Contains figures that appear in the manuscript. A subdirectory *Supplementary* holds figures from the supplementary material.
+
+#manuscript
+Contains PDF and DOCX versions of the manuscript and supplementary. The current version is v0.5.
+
+# output
+Contains figures and data products that are produced by scripts in `R/`.
+
+# R
+Contains all `R` script for analysis. Scripts for assembling data sets are named as follows:
+
+> [*Region*]\_Assembly.R
+
+Some data sets need to be wrangled prior to analysis. Zooplankton anomalies are created for Newfoundland and Quebec stocks with scripts called,
+
+> [*Region*]_Calculate_Zooplankton_Anomalies.R
+
+Scripts for performing principal component analysis (PCA) for each region are named as follows:
+
+> [*Region*]\_PCA.R
+
+Zooplankton PC1s for each region are compared with the `CombinedPC_Scores_Loads.R` script. Prior to model fitting, metrics for Scotian Shelf herring need to be assembled. `SS_Herring_CombineData.R` pulls together data sets and calculates stratified means for abundance and condition (i.e., Fulton's coefficient). Recruitment is calculated (after the CSAS document) as the change in biomass. Scripts for fitting generalised additive models (GAMs) are named using the following convention:
+
+> [*Region*]\_[*Fish*]\_[**Optional**: *NAFO region*]\_[*Fish metric*].R
+
+For example, *QC_Herring_4T_Recruitment.R*. Figures comparing all optimal GAMs are created with `compare_models.R` and PCAs are correlated using `PCA_comparison.R`.

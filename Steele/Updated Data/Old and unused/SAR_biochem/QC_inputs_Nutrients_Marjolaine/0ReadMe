@@ -1,0 +1,10 @@
+grep eGSL BTL_GLM_Mean_SAR.txt     | awk '{print $1,$4}' > Annual_Chl_0-100m_neGSL.dat
+grep wGSL BTL_GLM_Mean_SAR.txt     | awk '{print $1,$4}' > Annual_Chl_0-100m_nwGSL.dat
+grep sGSL BTL_GLM_Mean_SAR.txt     | awk '{print $1,$4}' > Annual_Chl_0-100m_sGSL.dat
+grep eGSL BTL_GLM_Mean_SAR.txt     | awk '{print $1,$3}' > Annual_NO3_50-150m_neGSL.dat
+grep wGSL BTL_GLM_Mean_SAR.txt     | awk '{print $1,$3}' > Annual_NO3_50-150m_nwGSL.dat
+grep sGSL BTL_GLM_Mean_SAR.txt     | awk '{print $1,$3}' > Annual_NO3_50-150m_sGSL.dat
+grep Rimouski BTL_GLM_Mean_SAR.txt | awk '{print $1,$4}' > Rimouski.Chl_0_100.dat
+grep Rimouski BTL_GLM_Mean_SAR.txt | awk '{print $1,$3}' > Rimouski.NO3_50_150.dat
+grep Shediac  BTL_GLM_Mean_SAR.txt | awk '{print $1,$4}' > Shediac.Chl_0_100.dat
+grep Shediac  BTL_GLM_Mean_SAR.txt | awk '{print $1,$3}' > Shediac.NO3_50_150.dat

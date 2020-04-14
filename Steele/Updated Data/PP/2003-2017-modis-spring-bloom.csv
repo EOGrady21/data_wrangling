@@ -1,0 +1,362 @@
+                          ,      ,Start of Bloom, Amplitude,    Duration,    Magnitude
+Region                    ,  Year, (Day of Year),  (mg/m^3),    (# days), (Area under Gaussian)
+Avalon_Channel            ,  2003,       113.9,       2.047,        23.7,       33.92
+Avalon_Channel            ,  2004,        84.3,       1.061,        56.1,       41.61
+Avalon_Channel            ,  2005,        76.9,       0.833,        51.9,       30.18
+Avalon_Channel            ,  2006,       103.4,       5.146,        17.0,       61.14
+Avalon_Channel            ,  2007,       101.2,       4.333,        19.7,       59.74
+Avalon_Channel            ,  2008,       104.3,       2.196,        28.7,       44.03
+Avalon_Channel            ,  2009,        85.0,       3.970,        18.8,       52.05
+Avalon_Channel            ,  2010,        92.7,       5.108,        14.6,       52.11
+Avalon_Channel            ,  2011,        97.5,       2.363,        27.6,       45.49
+Avalon_Channel            ,  2012,        95.0,       1.948,        16.9,       23.00
+Avalon_Channel            ,  2013,       109.9,       9.933,        11.5,       79.92
+Avalon_Channel            ,  2014,       103.6,       2.429,        31.1,       52.73
+Avalon_Channel            ,  2015,       122.8,       3.704,        13.9,       35.93
+Avalon_Channel            ,  2016,       110.9,       4.125,        14.6,       42.08
+Avalon_Channel            ,  2017,       116.0,       2.439,        17.3,       29.41
+Bay_of_Fundy              ,  2003,       110.4,       1.586,        14.4,       15.90
+Bay_of_Fundy              ,  2004,       103.8,       2.048,        42.4,       60.59
+Bay_of_Fundy              ,  2005,            ,            ,            ,            
+Bay_of_Fundy              ,  2006,            ,            ,            ,            
+Bay_of_Fundy              ,  2007,       120.9,       1.511,        42.4,       44.68
+Bay_of_Fundy              ,  2008,            ,            ,            ,            
+Bay_of_Fundy              ,  2009,       105.1,       1.941,        48.8,       66.11
+Bay_of_Fundy              ,  2010,        74.8,       2.008,        48.5,       67.94
+Bay_of_Fundy              ,  2011,       141.3,       5.534,        11.7,       45.36
+Bay_of_Fundy              ,  2012,       125.9,       3.989,        38.4,      107.00
+Bay_of_Fundy              ,  2013,            ,            ,            ,            
+Bay_of_Fundy              ,  2014,            ,            ,            ,            
+Bay_of_Fundy              ,  2015,            ,            ,            ,            
+Bay_of_Fundy              ,  2016,        99.1,       0.940,        53.7,       35.26
+Bay_of_Fundy              ,  2017,        93.5,       1.302,        61.7,       56.09
+Bras_dOr                  ,  2003,            ,            ,            ,            
+Bras_dOr                  ,  2004,            ,            ,            ,            
+Bras_dOr                  ,  2005,            ,            ,            ,            
+Bras_dOr                  ,  2006,            ,            ,            ,            
+Bras_dOr                  ,  2007,            ,            ,            ,            
+Bras_dOr                  ,  2008,            ,            ,            ,            
+Bras_dOr                  ,  2009,            ,            ,            ,            
+Bras_dOr                  ,  2010,            ,            ,            ,            
+Bras_dOr                  ,  2011,            ,            ,            ,            
+Bras_dOr                  ,  2012,            ,            ,            ,            
+Bras_dOr                  ,  2013,            ,            ,            ,            
+Bras_dOr                  ,  2014,            ,            ,            ,            
+Bras_dOr                  ,  2015,            ,            ,            ,            
+Bras_dOr                  ,  2016,            ,            ,            ,            
+Bras_dOr                  ,  2017,            ,            ,            ,            
+Bravo                     ,  2003,       136.9,       2.850,        12.6,       25.00
+Bravo                     ,  2004,            ,            ,            ,            
+Bravo                     ,  2005,       113.9,       1.077,       143.1,      107.59
+Bravo                     ,  2006,            ,            ,            ,            
+Bravo                     ,  2007,            ,            ,            ,            
+Bravo                     ,  2008,       126.1,       2.039,        25.7,       36.60
+Bravo                     ,  2009,       151.1,       0.661,        68.7,       31.75
+Bravo                     ,  2010,       134.8,       0.990,        97.4,       67.28
+Bravo                     ,  2011,       170.2,       1.655,        25.3,       29.25
+Bravo                     ,  2012,       127.7,       1.893,        40.6,       53.67
+Bravo                     ,  2013,            ,            ,            ,            
+Bravo                     ,  2014,       140.6,       6.265,        13.1,       57.48
+Bravo                     ,  2015,       134.7,       9.954,        12.6,       87.33
+Bravo                     ,  2016,       158.1,       3.050,        38.4,       81.72
+Bravo                     ,  2017,       162.8,       4.348,        44.5,      135.04
+Cabot_Strait              ,  2003,       106.4,       5.817,        20.6,       83.70
+Cabot_Strait              ,  2004,       108.7,       4.518,        16.2,       51.08
+Cabot_Strait              ,  2005,        98.3,       0.670,        21.5,       10.08
+Cabot_Strait              ,  2006,        82.8,       3.674,        39.6,      101.50
+Cabot_Strait              ,  2007,        97.4,       4.918,        28.8,       98.99
+Cabot_Strait              ,  2008,       117.5,       0.902,        18.1,       11.39
+Cabot_Strait              ,  2009,        91.5,       2.151,        39.9,       59.89
+Cabot_Strait              ,  2010,        67.6,       1.525,        39.5,       42.04
+Cabot_Strait              ,  2011,        99.9,       2.808,        25.3,       49.56
+Cabot_Strait              ,  2012,        61.1,       2.485,        77.6,      134.69
+Cabot_Strait              ,  2013,        97.2,       2.352,        17.9,       29.48
+Cabot_Strait              ,  2014,       104.1,       6.093,        13.9,       58.95
+Cabot_Strait              ,  2015,       120.2,       1.738,        18.6,       22.61
+Cabot_Strait              ,  2016,        52.2,       1.385,        86.0,       83.15
+Cabot_Strait              ,  2017,        94.2,       3.288,        16.0,       36.76
+Central_Scotian_Shelf     ,  2003,        88.4,      10.831,        13.7,      103.98
+Central_Scotian_Shelf     ,  2004,        77.3,       1.468,        36.8,       37.68
+Central_Scotian_Shelf     ,  2005,        75.7,       1.149,        23.0,       18.49
+Central_Scotian_Shelf     ,  2006,        53.3,       1.232,        64.6,       55.54
+Central_Scotian_Shelf     ,  2007,        79.6,       2.547,        29.2,       51.97
+Central_Scotian_Shelf     ,  2008,        86.8,       0.944,        20.9,       13.75
+Central_Scotian_Shelf     ,  2009,        72.8,       1.175,        50.1,       41.10
+Central_Scotian_Shelf     ,  2010,        69.3,       1.039,        30.6,       22.18
+Central_Scotian_Shelf     ,  2011,        91.0,       1.345,        18.6,       17.43
+Central_Scotian_Shelf     ,  2012,        77.3,       2.374,        17.2,       28.45
+Central_Scotian_Shelf     ,  2013,        96.0,       5.983,        13.0,       54.29
+Central_Scotian_Shelf     ,  2014,        54.1,       0.717,        76.4,       38.25
+Central_Scotian_Shelf     ,  2015,        98.9,       1.512,        22.9,       24.14
+Central_Scotian_Shelf     ,  2016,        84.1,       2.691,        19.4,       36.49
+Central_Scotian_Shelf     ,  2017,        30.7,       0.663,       101.5,       47.02
+Eastern_Scotian_Shelf     ,  2003,        95.1,       3.128,        23.6,       51.59
+Eastern_Scotian_Shelf     ,  2004,        93.2,       2.106,        35.2,       51.79
+Eastern_Scotian_Shelf     ,  2005,        83.2,       1.710,        20.3,       24.22
+Eastern_Scotian_Shelf     ,  2006,        93.2,       6.076,        13.3,       56.35
+Eastern_Scotian_Shelf     ,  2007,        63.0,       1.711,        63.5,       75.83
+Eastern_Scotian_Shelf     ,  2008,        92.5,       2.321,        19.6,       31.83
+Eastern_Scotian_Shelf     ,  2009,        85.4,       0.961,        34.0,       22.81
+Eastern_Scotian_Shelf     ,  2010,        78.7,       9.657,        14.2,       95.86
+Eastern_Scotian_Shelf     ,  2011,        91.2,       4.501,        19.2,       60.48
+Eastern_Scotian_Shelf     ,  2012,        75.1,       5.691,        22.0,       87.31
+Eastern_Scotian_Shelf     ,  2013,       101.2,       6.592,        12.7,       58.66
+Eastern_Scotian_Shelf     ,  2014,        99.4,       2.056,        18.7,       26.80
+Eastern_Scotian_Shelf     ,  2015,        93.8,       0.803,        26.0,       14.58
+Eastern_Scotian_Shelf     ,  2016,        75.4,       3.070,        24.4,       52.25
+Eastern_Scotian_Shelf     ,  2017,        91.6,       1.480,        28.0,       28.94
+Estuary                   ,  2003,       108.4,      15.243,        90.9,      967.84
+Estuary                   ,  2004,       110.3,      13.629,       146.3,     1392.43
+Estuary                   ,  2005,       116.9,      12.394,       111.9,      968.02
+Estuary                   ,  2006,        78.9,      10.651,       161.6,     1201.47
+Estuary                   ,  2007,       102.6,      11.597,       123.6,     1000.82
+Estuary                   ,  2008,       107.0,      10.193,        99.6,      708.47
+Estuary                   ,  2009,       104.8,       9.716,       132.7,      900.38
+Estuary                   ,  2010,        96.4,       8.878,       100.5,      623.11
+Estuary                   ,  2011,       117.8,      12.313,        72.9,      626.53
+Estuary                   ,  2012,       138.4,      13.586,        39.1,      371.19
+Estuary                   ,  2013,            ,            ,            ,            
+Estuary                   ,  2014,       104.8,      11.822,        94.1,      776.97
+Estuary                   ,  2015,       107.8,      10.887,       104.1,      791.41
+Estuary                   ,  2016,            ,            ,            ,            
+Estuary                   ,  2017,       113.8,      12.234,       103.7,      885.63
+Flemish_Pass              ,  2003,       142.0,       5.309,        15.1,       56.16
+Flemish_Pass              ,  2004,        85.5,       1.183,        81.3,       67.15
+Flemish_Pass              ,  2005,        97.7,       2.763,        35.0,       67.45
+Flemish_Pass              ,  2006,        83.9,       1.699,        53.3,       63.28
+Flemish_Pass              ,  2007,       123.2,       3.141,        15.1,       33.07
+Flemish_Pass              ,  2008,       101.8,       1.216,        39.0,       33.09
+Flemish_Pass              ,  2009,        98.5,       3.540,        45.2,      111.73
+Flemish_Pass              ,  2010,        86.5,       1.055,        99.2,       73.05
+Flemish_Pass              ,  2011,       117.6,       5.217,        12.0,       43.81
+Flemish_Pass              ,  2012,       105.9,       3.643,        22.8,       57.99
+Flemish_Pass              ,  2013,        88.6,       1.822,        52.5,       66.83
+Flemish_Pass              ,  2014,       124.2,       4.165,        13.2,       38.42
+Flemish_Pass              ,  2015,       118.4,       2.178,        19.5,       29.65
+Flemish_Pass              ,  2016,        88.7,       1.902,        53.2,       70.64
+Flemish_Pass              ,  2017,       104.5,       1.142,        71.2,       56.75
+Georges_Bank              ,  2003,        91.9,       5.596,        36.4,      142.10
+Georges_Bank              ,  2004,        64.2,       3.653,        69.0,      175.91
+Georges_Bank              ,  2005,       101.4,       3.382,        13.4,       31.71
+Georges_Bank              ,  2006,        76.6,       2.013,        41.6,       58.42
+Georges_Bank              ,  2007,        80.3,       1.360,        43.0,       40.83
+Georges_Bank              ,  2008,       128.4,       8.625,         9.0,       54.05
+Georges_Bank              ,  2009,        67.9,       4.777,        52.7,      175.90
+Georges_Bank              ,  2010,       107.1,       7.779,        16.5,       89.70
+Georges_Bank              ,  2011,        88.9,       7.325,        29.7,      151.85
+Georges_Bank              ,  2012,        92.8,       2.769,        16.5,       31.86
+Georges_Bank              ,  2013,       117.4,       3.069,        13.3,       28.54
+Georges_Bank              ,  2014,        73.6,       3.313,        24.8,       57.30
+Georges_Bank              ,  2015,        83.0,       5.267,        22.8,       83.84
+Georges_Bank              ,  2016,        77.2,       8.590,        14.4,       86.13
+Georges_Bank              ,  2017,       104.8,       1.636,        28.2,       32.24
+Green-St._Pierre_Bank     ,  2003,       104.9,       1.137,        34.0,       26.99
+Green-St._Pierre_Bank     ,  2004,        93.7,       1.456,        45.3,       46.11
+Green-St._Pierre_Bank     ,  2005,        87.7,       0.933,        33.7,       21.94
+Green-St._Pierre_Bank     ,  2006,       101.9,       2.670,        24.7,       46.11
+Green-St._Pierre_Bank     ,  2007,        98.4,       1.516,        30.2,       32.00
+Green-St._Pierre_Bank     ,  2008,        93.0,       0.481,        53.3,       17.88
+Green-St._Pierre_Bank     ,  2009,       100.7,       1.349,        21.4,       20.19
+Green-St._Pierre_Bank     ,  2010,        47.9,       1.068,        83.5,       62.25
+Green-St._Pierre_Bank     ,  2011,        92.4,       2.048,        26.1,       37.32
+Green-St._Pierre_Bank     ,  2012,        98.1,       4.323,        12.9,       39.01
+Green-St._Pierre_Bank     ,  2013,       104.0,       1.821,        12.7,       16.11
+Green-St._Pierre_Bank     ,  2014,       114.9,       1.762,        21.4,       26.28
+Green-St._Pierre_Bank     ,  2015,       104.0,       0.498,        29.2,       10.14
+Green-St._Pierre_Bank     ,  2016,       111.6,       2.217,        18.9,       29.28
+Green-St._Pierre_Bank     ,  2017,       108.9,       2.568,        26.1,       46.80
+Hamilton_Bank             ,  2003,       137.0,       1.920,        30.9,       41.38
+Hamilton_Bank             ,  2004,       138.3,       0.807,        36.2,       20.37
+Hamilton_Bank             ,  2005,       125.6,       3.658,        12.2,       31.08
+Hamilton_Bank             ,  2006,       108.0,       2.550,        36.5,       65.00
+Hamilton_Bank             ,  2007,       150.2,       0.660,        22.9,       10.55
+Hamilton_Bank             ,  2008,       112.9,       1.079,        54.5,       41.07
+Hamilton_Bank             ,  2009,       153.8,       2.188,        23.6,       35.98
+Hamilton_Bank             ,  2010,       128.1,       4.114,        19.9,       57.13
+Hamilton_Bank             ,  2011,       132.2,       1.814,        34.7,       43.98
+Hamilton_Bank             ,  2012,       114.8,       1.743,        55.4,       67.45
+Hamilton_Bank             ,  2013,       126.5,       0.734,        46.7,       23.97
+Hamilton_Bank             ,  2014,       144.0,       1.478,        24.9,       25.67
+Hamilton_Bank             ,  2015,       138.2,       2.065,        20.1,       28.93
+Hamilton_Bank             ,  2016,       133.7,       2.125,        36.1,       53.52
+Hamilton_Bank             ,  2017,            ,            ,            ,            
+Hibernia                  ,  2003,        52.0,       0.400,       110.5,       30.86
+Hibernia                  ,  2004,        78.8,       4.399,        52.2,      160.22
+Hibernia                  ,  2005,        94.3,       1.642,        29.5,       33.84
+Hibernia                  ,  2006,       105.2,      11.430,        12.6,      100.85
+Hibernia                  ,  2007,        83.4,       2.061,        49.4,       71.02
+Hibernia                  ,  2008,        98.1,       7.567,        17.9,       94.84
+Hibernia                  ,  2009,        74.1,       2.953,        54.1,      111.62
+Hibernia                  ,  2010,        71.3,       4.011,        17.0,       47.55
+Hibernia                  ,  2011,       102.7,      10.268,        17.2,      123.03
+Hibernia                  ,  2012,        92.1,       2.554,        19.9,       35.47
+Hibernia                  ,  2013,        70.9,       1.308,        72.3,       66.04
+Hibernia                  ,  2014,        96.3,       4.034,        40.1,      113.04
+Hibernia                  ,  2015,       122.1,       5.318,        14.3,       53.05
+Hibernia                  ,  2016,       102.3,       0.886,        43.6,       26.98
+Hibernia                  ,  2017,       111.3,       6.557,        15.4,       70.35
+Hudson_Strait             ,  2003,            ,            ,            ,            
+Hudson_Strait             ,  2004,       182.4,       0.663,        23.0,       10.64
+Hudson_Strait             ,  2005,            ,            ,            ,            
+Hudson_Strait             ,  2006,            ,            ,            ,            
+Hudson_Strait             ,  2007,            ,            ,            ,            
+Hudson_Strait             ,  2008,            ,            ,            ,            
+Hudson_Strait             ,  2009,            ,            ,            ,            
+Hudson_Strait             ,  2010,       154.5,       0.924,       101.8,       65.72
+Hudson_Strait             ,  2011,            ,            ,            ,            
+Hudson_Strait             ,  2012,            ,            ,            ,            
+Hudson_Strait             ,  2013,       161.3,       0.887,        95.1,       58.86
+Hudson_Strait             ,  2014,            ,            ,            ,            
+Hudson_Strait             ,  2015,            ,            ,            ,            
+Hudson_Strait             ,  2016,       130.1,       1.170,       150.9,      123.34
+Hudson_Strait             ,  2017,            ,            ,            ,            
+Lurcher_Shoal             ,  2003,        99.7,       1.941,        15.8,       21.41
+Lurcher_Shoal             ,  2004,       108.2,       0.947,        16.8,       11.08
+Lurcher_Shoal             ,  2005,            ,            ,            ,            
+Lurcher_Shoal             ,  2006,        82.4,       1.454,        33.7,       34.19
+Lurcher_Shoal             ,  2007,        82.5,       0.876,        33.7,       20.59
+Lurcher_Shoal             ,  2008,       113.0,       2.767,        12.5,       24.14
+Lurcher_Shoal             ,  2009,        63.5,       0.678,        56.9,       26.94
+Lurcher_Shoal             ,  2010,        85.8,       2.659,        14.4,       26.66
+Lurcher_Shoal             ,  2011,            ,            ,            ,            
+Lurcher_Shoal             ,  2012,            ,            ,            ,            
+Lurcher_Shoal             ,  2013,            ,            ,            ,            
+Lurcher_Shoal             ,  2014,       108.7,       1.448,        12.6,       12.70
+Lurcher_Shoal             ,  2015,            ,            ,            ,            
+Lurcher_Shoal             ,  2016,            ,            ,            ,            
+Lurcher_Shoal             ,  2017,       110.6,       4.906,        10.8,       36.89
+Magdalen_Shallows         ,  2003,        92.8,       2.426,        32.2,       54.48
+Magdalen_Shallows         ,  2004,       105.0,       5.834,        14.2,       57.76
+Magdalen_Shallows         ,  2005,            ,            ,            ,            
+Magdalen_Shallows         ,  2006,       107.3,       2.434,        13.6,       23.18
+Magdalen_Shallows         ,  2007,        72.4,       3.116,        63.3,      137.69
+Magdalen_Shallows         ,  2008,       104.4,       1.989,        22.4,       31.06
+Magdalen_Shallows         ,  2009,        94.0,       1.970,        43.8,       60.23
+Magdalen_Shallows         ,  2010,        66.0,       3.018,        48.9,      103.05
+Magdalen_Shallows         ,  2011,        98.5,       3.139,        28.6,       62.79
+Magdalen_Shallows         ,  2012,        77.7,       6.330,        25.4,      112.33
+Magdalen_Shallows         ,  2013,        79.7,       1.886,        49.4,       65.11
+Magdalen_Shallows         ,  2014,       109.3,       6.341,        14.9,       66.12
+Magdalen_Shallows         ,  2015,       113.5,       4.897,        16.9,       57.82
+Magdalen_Shallows         ,  2016,        68.1,       2.902,        57.5,      116.59
+Magdalen_Shallows         ,  2017,            ,            ,            ,            
+Northeast_GSL             ,  2003,       105.9,       0.901,       100.2,       63.06
+Northeast_GSL             ,  2004,       104.1,       2.993,        15.7,       32.86
+Northeast_GSL             ,  2005,       102.2,       1.118,        13.3,       10.37
+Northeast_GSL             ,  2006,        99.7,       2.423,        18.0,       30.43
+Northeast_GSL             ,  2007,       106.0,       1.616,        17.5,       19.77
+Northeast_GSL             ,  2008,       101.8,       1.007,        35.6,       25.04
+Northeast_GSL             ,  2009,        91.0,       1.020,        29.2,       20.79
+Northeast_GSL             ,  2010,        84.6,       2.504,        24.4,       42.74
+Northeast_GSL             ,  2011,       115.4,       1.937,        14.6,       19.76
+Northeast_GSL             ,  2012,       109.3,       1.712,        18.1,       21.63
+Northeast_GSL             ,  2013,        96.2,       2.703,        26.1,       49.25
+Northeast_GSL             ,  2014,       123.1,       1.560,        15.5,       16.93
+Northeast_GSL             ,  2015,       123.3,       0.639,        14.5,        6.49
+Northeast_GSL             ,  2016,        97.6,       1.572,        26.9,       29.51
+Northeast_GSL             ,  2017,        93.3,       1.498,        27.9,       29.18
+Northeast_Nfld_Shelf      ,  2003,       115.5,       2.058,        30.9,       44.36
+Northeast_Nfld_Shelf      ,  2004,       114.2,       1.976,        36.8,       50.73
+Northeast_Nfld_Shelf      ,  2005,        99.0,       1.824,        26.3,       33.46
+Northeast_Nfld_Shelf      ,  2006,        97.3,       3.798,        29.8,       79.02
+Northeast_Nfld_Shelf      ,  2007,        93.5,       1.145,        67.1,       53.62
+Northeast_Nfld_Shelf      ,  2008,       112.4,       1.821,        14.5,       18.49
+Northeast_Nfld_Shelf      ,  2009,       108.0,       2.967,        31.8,       65.81
+Northeast_Nfld_Shelf      ,  2010,        94.7,       4.657,        22.7,       73.90
+Northeast_Nfld_Shelf      ,  2011,       100.4,       5.372,        35.1,      131.57
+Northeast_Nfld_Shelf      ,  2012,       100.9,       2.053,        21.7,       31.13
+Northeast_Nfld_Shelf      ,  2013,        98.7,       1.380,        49.3,       47.49
+Northeast_Nfld_Shelf      ,  2014,       123.0,       1.996,        16.7,       23.26
+Northeast_Nfld_Shelf      ,  2015,       125.3,       5.212,        13.7,       49.91
+Northeast_Nfld_Shelf      ,  2016,       103.7,       1.721,        36.9,       44.31
+Northeast_Nfld_Shelf      ,  2017,       124.2,       1.898,        35.7,       47.35
+Northern_Labrador_Shelf   ,  2003,            ,            ,            ,            
+Northern_Labrador_Shelf   ,  2004,       137.2,       0.847,        42.8,       25.34
+Northern_Labrador_Shelf   ,  2005,       144.6,       1.583,        23.2,       25.59
+Northern_Labrador_Shelf   ,  2006,       132.5,       0.790,        44.8,       24.70
+Northern_Labrador_Shelf   ,  2007,            ,            ,            ,            
+Northern_Labrador_Shelf   ,  2008,       138.4,       0.524,        36.0,       13.17
+Northern_Labrador_Shelf   ,  2009,       161.8,       0.985,        29.3,       20.15
+Northern_Labrador_Shelf   ,  2010,       161.0,       0.884,        22.8,       14.10
+Northern_Labrador_Shelf   ,  2011,       145.3,       1.650,        19.9,       22.91
+Northern_Labrador_Shelf   ,  2012,       148.2,       0.765,        32.0,       17.06
+Northern_Labrador_Shelf   ,  2013,            ,            ,            ,            
+Northern_Labrador_Shelf   ,  2014,       157.1,       2.328,        13.4,       21.71
+Northern_Labrador_Shelf   ,  2015,       141.6,       2.413,        16.0,       26.98
+Northern_Labrador_Shelf   ,  2016,       154.8,       0.756,        19.6,       10.36
+Northern_Labrador_Shelf   ,  2017,            ,            ,            ,            
+Northwest_GSL             ,  2003,       105.0,       5.161,        83.3,      300.13
+Northwest_GSL             ,  2004,       107.8,       6.591,        70.9,      326.14
+Northwest_GSL             ,  2005,        97.7,       8.022,        16.2,       90.49
+Northwest_GSL             ,  2006,            ,            ,            ,            
+Northwest_GSL             ,  2007,       116.9,       4.067,        37.2,      105.51
+Northwest_GSL             ,  2008,       113.8,       7.361,        28.7,      147.42
+Northwest_GSL             ,  2009,       110.1,       6.728,        23.8,      111.65
+Northwest_GSL             ,  2010,        74.2,       3.223,        34.0,       76.43
+Northwest_GSL             ,  2011,       101.6,       6.373,        18.8,       83.87
+Northwest_GSL             ,  2012,        99.9,       7.869,        20.3,      111.44
+Northwest_GSL             ,  2013,       108.5,       5.341,        54.1,      201.74
+Northwest_GSL             ,  2014,       107.5,       5.523,        76.0,      293.08
+Northwest_GSL             ,  2015,        97.1,       5.119,        94.9,      339.16
+Northwest_GSL             ,  2016,       106.9,      11.727,        16.8,      137.86
+Northwest_GSL             ,  2017,       100.3,       4.400,        71.8,      220.58
+Southeast_Shoal           ,  2003,       115.7,       3.445,        15.2,       36.61
+Southeast_Shoal           ,  2004,        84.8,       1.656,        54.9,       63.47
+Southeast_Shoal           ,  2005,        91.5,       1.619,        28.1,       31.78
+Southeast_Shoal           ,  2006,        77.9,       4.247,        50.8,      150.53
+Southeast_Shoal           ,  2007,       103.9,       8.560,        12.3,       73.60
+Southeast_Shoal           ,  2008,       104.6,       6.760,        10.6,       49.99
+Southeast_Shoal           ,  2009,            ,            ,            ,            
+Southeast_Shoal           ,  2010,        79.1,       9.169,        13.2,       84.58
+Southeast_Shoal           ,  2011,            ,            ,            ,            
+Southeast_Shoal           ,  2012,        93.1,       2.564,        17.2,       30.78
+Southeast_Shoal           ,  2013,        82.2,       4.446,        42.6,      132.17
+Southeast_Shoal           ,  2014,        68.9,       4.683,        66.6,      217.89
+Southeast_Shoal           ,  2015,       124.8,       2.690,        11.1,       20.77
+Southeast_Shoal           ,  2016,            ,            ,            ,            
+Southeast_Shoal           ,  2017,       109.0,       3.596,        21.1,       53.00
+St.Anthony_Basin          ,  2003,       139.3,       8.345,        14.6,       84.93
+St.Anthony_Basin          ,  2004,       110.8,       1.652,        43.7,       50.35
+St.Anthony_Basin          ,  2005,       101.4,       1.222,        30.5,       26.04
+St.Anthony_Basin          ,  2006,       103.0,       4.711,        17.2,       56.44
+St.Anthony_Basin          ,  2007,       108.5,       1.426,        63.0,       62.73
+St.Anthony_Basin          ,  2008,       108.7,       1.251,        27.9,       24.39
+St.Anthony_Basin          ,  2009,       127.6,       1.542,        46.1,       49.58
+St.Anthony_Basin          ,  2010,        85.6,       0.946,        73.4,       48.47
+St.Anthony_Basin          ,  2011,       105.0,       3.081,        40.0,       86.03
+St.Anthony_Basin          ,  2012,       100.2,       1.216,        68.8,       58.43
+St.Anthony_Basin          ,  2013,       129.5,       2.359,        18.5,       30.45
+St.Anthony_Basin          ,  2014,       109.6,       0.790,        52.3,       28.84
+St.Anthony_Basin          ,  2015,       127.1,       6.931,        15.4,       74.53
+St.Anthony_Basin          ,  2016,       126.6,       1.673,        24.4,       28.47
+St.Anthony_Basin          ,  2017,       117.3,       1.315,        40.0,       36.71
+Western_Bank              ,  2003,        59.3,       1.564,        41.3,       45.12
+Western_Bank              ,  2004,        55.7,       1.671,        52.1,       60.83
+Western_Bank              ,  2005,        60.1,       1.107,        32.9,       25.45
+Western_Bank              ,  2006,        41.4,       0.860,        68.5,       41.13
+Western_Bank              ,  2007,        68.1,       2.372,        42.0,       69.51
+Western_Bank              ,  2008,        62.2,       0.787,        38.4,       21.13
+Western_Bank              ,  2009,        43.7,       1.499,        63.5,       66.49
+Western_Bank              ,  2010,        53.3,       0.924,        42.3,       27.25
+Western_Bank              ,  2011,        30.0,       2.487,        59.7,      103.61
+Western_Bank              ,  2012,        55.2,       0.911,        47.4,       30.14
+Western_Bank              ,  2013,        76.3,       0.693,        51.4,       24.88
+Western_Bank              ,  2014,        50.2,       1.057,        59.8,       44.17
+Western_Bank              ,  2015,        59.2,       1.343,        64.0,       60.04
+Western_Bank              ,  2016,            ,            ,            ,            
+Western_Bank              ,  2017,        24.4,       1.055,        91.4,       67.36
+Western_Scotian_Shelf     ,  2003,        97.5,       6.374,        15.1,       67.10
+Western_Scotian_Shelf     ,  2004,        90.1,       3.901,        14.6,       39.80
+Western_Scotian_Shelf     ,  2005,        86.0,       0.594,        18.8,        7.80
+Western_Scotian_Shelf     ,  2006,        82.2,       2.826,        21.6,       42.58
+Western_Scotian_Shelf     ,  2007,        87.0,       3.822,        21.1,       56.24
+Western_Scotian_Shelf     ,  2008,        96.3,       1.728,        27.2,       32.78
+Western_Scotian_Shelf     ,  2009,        94.7,       3.422,        12.9,       30.71
+Western_Scotian_Shelf     ,  2010,        85.4,       2.982,        12.6,       26.16
+Western_Scotian_Shelf     ,  2011,        93.5,       0.967,        17.7,       11.98
+Western_Scotian_Shelf     ,  2012,        19.9,       0.759,       100.5,       53.26
+Western_Scotian_Shelf     ,  2013,        96.6,       1.100,        25.1,       19.28
+Western_Scotian_Shelf     ,  2014,        80.9,       1.201,        27.1,       22.72
+Western_Scotian_Shelf     ,  2015,       101.4,       1.201,        22.6,       18.94
+Western_Scotian_Shelf     ,  2016,        38.2,       0.570,        87.2,       34.67
+Western_Scotian_Shelf     ,  2017,        88.1,       1.498,        20.6,       21.59
