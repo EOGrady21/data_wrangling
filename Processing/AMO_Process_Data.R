@@ -1,0 +1,116 @@
+
+## required package
+library(dplyr)
+library(tidyr)
+
+##--------------------------------------------------------------------------------------------
+## read monthly AMO data from dat file
+ifile <- "~/Projects/ICES_6IZPS_PP/data/AMO/AMO_Monthly.dat"
+df_data_raw_w <- read.table(ifile, header=FALSE, sep="", stringsAsFactors=FALSE, na.strings="")
+
+## reassign column names
+names(df_data_raw_w) <- c("year","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec")
+
+##--------------------------------------------------------------------------------------------
+## reshape and tidy up the data
+df_data_filtered_l <- df_data_raw_w %>%
+  tidyr::gather(., "month", "value", 2:13) %>%              # long format
+  dplyr::filter(., value> -99) %>%                          # eliminate missing values
+  dplyr::mutate(., month=match(month, month.abb)) %>%       # convert month abb to month number
+  dplyr::arrange(., year, month) %>%                        # reorder rows
+  dplyr::filter(., year>=1999 & year<=2015)                 # year range
+
+##--------------------------------------------------------------------------------------------
+## calculate annual means
+df_mean_annual_l <- df_data_filtered_l %>%
+  dplyr::group_by(., year) %>%
+  dplyr::summarise(., value=mean(value, na.rm=TRUE))
+
+##--------------------------------------------------------------------------------------------
+## calculate monthly climatology
+df_climatology_month_l <- df_data_filtered_l %>%
+  dplyr::select(., month, value) %>%
+  dplyr::group_by(., month) %>%
+  dplyr::summarise(., mean=mean(value, na.rm=TRUE), sd=sd(value, na.rm=TRUE))  # monthly stats
+
+##--------------------------------------------------------------------------------------------
+## calculate de-seasonalized monthly anomalies
+df_anomaly_month_l <- dplyr::left_join(df_data_filtered_l,
+                                       df_climatology_month_l,
+                                       by="month") %>%
+  dplyr::mutate(., value=(value-mean)/sd) %>%
+  dplyr::select(., year, month, value)
+
+## reshape to wide format
+df_anomaly_month_w <- df_anomaly_month_l %>%
+  tidyr::spread(., month, value) %>%
+  dplyr::arrange(., year)
+
+##--------------------------------------------------------------------------------------------
+## calculate annual anomalies
+df_anomaly_annual_l <- df_anomaly_month_l %>%
+  dplyr::group_by(., year) %>%
+  dplyr::summarise(., value=mean(value, na.rm=TRUE)) %>%
+  dplyr::arrange(., year)
+
+##--------------------------------------------------------------------------------------------
+## calculate annual normalized anomalies
+df_norm_anomaly_annual_l <- df_anomaly_annual_l %>%
+  dplyr::mutate(., mean=mean(value, na.rm=TRUE), sd=sd(value, na.rm=TRUE)) %>%
+  dplyr::mutate(., value=(value-mean)/sd) %>%
+  dplyr::select(., year, value)
+
+##--------------------------------------------------------------------------------------------
+## print to csv file
+# raw data
+ofile <- "~/Projects/ICES_6IZPS_PP/outputs/AMO/AMO_Data_Raw.csv"
+write.table(df_data_raw_w,
+            file=ofile, append=FALSE, quote=TRUE, sep=",",
+            eol="\n", na="NA", dec=".", row.names=FALSE, col.names=TRUE)
+
+# filtered data
+ofile <- "~/Projects/ICES_6IZPS_PP/outputs/AMO/AMO_Data_Filtered.csv"
+write.table(df_data_filtered_l %>%
+              tidyr::spread(., month, value) %>%
+              dplyr::arrange(., year),
+            file=ofile, append=FALSE, quote=TRUE, sep=",",
+            eol="\n", na="NA", dec=".", row.names=FALSE, col.names=TRUE)
+
+## annual means
+ofile <- "~/Projects/ICES_6IZPS_PP/outputs/AMO/AMO_Means_Annual.csv"
+write.table(df_mean_annual_l, file=ofile, append=FALSE, quote=TRUE, sep=",",
+            eol="\n", na="NA", dec=".", row.names=FALSE,
+            col.names=TRUE)
+
+## monthly climatology
+ofile <- "~/Projects/ICES_6IZPS_PP/outputs/AMO/AMO_Climatology_Month.csv"
+write.table(df_climatology_month_l, file=ofile, append=FALSE, quote=TRUE, sep=",",
+            eol="\n", na="NA", dec=".", row.names=FALSE,
+            col.names=TRUE)
+
+## monthly anomalies
+ofile <- "~/Projects/ICES_6IZPS_PP/outputs/AMO/AMO_Anomalies_Month.csv"
+write.table(df_anomaly_month_w, file=ofile, append=FALSE, quote=TRUE, sep=",",
+            eol="\n", na="NA", dec=".", row.names=FALSE,
+            col.names=TRUE)
+
+## annual anomalies
+ofile <- "~/Projects/ICES_6IZPS_PP/outputs/AMO/AMO_Anomalies_Annual.csv"
+write.table(df_anomaly_annual_l, file=ofile, append=FALSE, quote=TRUE, sep=",",
+            eol="\n", na="NA", dec=".", row.names=FALSE,
+            col.names=TRUE)
+
+## annual normalized anomalies
+ofile <- "~/Projects/ICES_6IZPS_PP/outputs/AMO/AMO_Normalized_Anomalies_Annual.csv"
+write.table(df_norm_anomaly_annual_l, file=ofile, append=FALSE, quote=TRUE, sep=",",
+            eol="\n", na="NA", dec=".", row.names=FALSE,
+            col.names=TRUE)
+
+##--------------------------------------------------------------------------------------------
+## save to RData file
+ofile <- "~/Projects/ICES_6IZPS_PP/outputs/AMO/AMO.RData"
+save(file=ofile, list=c("df_data_raw_w", "df_data_filtered_l",
+                        "df_mean_annual_l",
+                        "df_climatology_month_l",
+                        "df_anomaly_month_l",
+                        "df_anomaly_annual_l", "df_norm_anomaly_annual_l"))
